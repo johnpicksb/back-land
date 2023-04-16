@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leads",
+  "info": {
+    "singularName": "lead",
+    "pluralName": "leads",
+    "displayName": "lead",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "affiliate": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    }
+  }
+}
